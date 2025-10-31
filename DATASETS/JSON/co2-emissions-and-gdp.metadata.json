@@ -1,0 +1,88 @@
+{
+  "chart": {
+    "title": "Change in CO₂ emissions and GDP",
+    "subtitle": "[Consumption-based emissions](#dod:consumptionbasedemissions) are national emissions that have been adjusted for trade. This measures [fossil fuel and industry emissions](#dod:fossilemissions). Land-use change is not included.",
+    "note": "Gross Domestic Product (GDP) figures are adjusted for inflation.",
+    "citation": "World Bank (2023); Global Carbon Budget (2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/co2-emissions-and-gdp?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Sweden",
+      "United Kingdom",
+      "United States",
+      "France",
+      "Germany",
+      "European Union (27)"
+    ]
+  },
+  "columns": {
+    "GDP, PPP (constant 2017 international $)": {
+      "titleShort": "Gross domestic product (GDP)",
+      "titleLong": "Gross domestic product (GDP) - World Bank",
+      "descriptionShort": "This data is adjusted for inflation and for differences in the cost of living between countries.",
+      "descriptionKey": [
+        "This GDP indicator provides information on economic growth and income levels from 1990.",
+        "This data is adjusted for inflation and for differences in the cost of living between countries.",
+        "This data is expressed in international-$ at 2017 prices."
+      ],
+      "shortUnit": "$",
+      "unit": "international-$ in 2017 prices",
+      "timespan": "1990-2022",
+      "type": "Numeric",
+      "owidVariableId": 905482,
+      "shortName": "ny_gdp_mktp_pp_kd",
+      "lastUpdated": "2024-05-20",
+      "nextUpdate": "2025-05-20",
+      "citationShort": "World Bank (2023) – with minor processing by Our World in Data",
+      "citationLong": "World Bank (2023) – with minor processing by Our World in Data. “Gross domestic product (GDP) – World Bank” [dataset]. World Bank, “World Bank World Development Indicators” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/905482.metadata.json"
+    },
+    "Annual CO₂ emissions": {
+      "titleShort": "CO₂ emissions",
+      "titleLong": "CO₂ emissions",
+      "descriptionShort": "Annual total emissions of carbon dioxide (CO₂), excluding land-use change, measured in tonnes.",
+      "descriptionKey": [
+        "This data is based on territorial emissions, which do not account for emissions embedded in traded goods.",
+        "Emissions from international aviation and shipping are not included in any country or region's emissions. They are only included in the global total emissions."
+      ],
+      "descriptionProcessing": "- Data on global emissions has been converted from tonnes of carbon to tonnes of carbon dioxide (CO₂) using a conversion factor of 3.664.\n- Emissions from the Kuwaiti oil fires in 1991 have been included as part of Kuwait's emissions for that year.\n- Country's share of the global population is calculated using our population dataset, based on [different sources](https://ourworldindata.org/population-sources).\n- Each country's share of global CO₂ emissions from flaring has been calculated using global CO₂ emissions from flaring provided in the Global Carbon Budget dataset.\n",
+      "shortUnit": "t",
+      "unit": "tonnes",
+      "timespan": "1750-2023",
+      "type": "Numeric",
+      "owidVariableId": 998397,
+      "shortName": "emissions_total",
+      "lastUpdated": "2024-11-21",
+      "nextUpdate": "2025-11-21",
+      "citationShort": "Global Carbon Budget (2024) – with major processing by Our World in Data",
+      "citationLong": "Global Carbon Budget (2024) – with major processing by Our World in Data. “CO₂ emissions – GCB” [dataset]. Global Carbon Project, “Global Carbon Budget” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/998397.metadata.json"
+    },
+    "Annual consumption-based CO₂ emissions": {
+      "titleShort": "Consumption-based CO₂ emissions",
+      "titleLong": "Consumption-based CO₂ emissions",
+      "descriptionShort": "Annual consumption-based emissions of carbon dioxide (CO₂), measured in tonnes.",
+      "descriptionKey": [
+        "Consumption-based emissions attribute the emissions generated in the production of goods and services according to where they were _consumed_, rather than where they were _produced_.",
+        "The data is calculated by adjusting 'production-based' emissions (emissions produced domestically) for trade: Consumption-based emissions equals production-based emissions, _minus_ emissions embedded in exports, _plus_ emissions embedded in imports.",
+        "If a country's consumption-based emissions are higher than its production emissions it is a net importer of carbon dioxide. If its consumption-based emissions are lower, then it is a net exporter.",
+        "Consumption-based emissions are not available for all countries because not all countries have sufficient, high-quality trade data. But those without complete data are a small fraction (3%) of the global total.",
+        "This data measures carbon dioxide (CO₂) emissions from fossil fuels and industry and does not include emissions from land use change, deforestation, soils, or vegetation.",
+        "Emissions from international aviation and shipping are not included in any country or region's emissions. They are only included in the global total emissions."
+      ],
+      "descriptionProcessing": "- Data on global emissions has been converted from tonnes of carbon to tonnes of carbon dioxide (CO₂) using a conversion factor of 3.664.\n- Emissions from the Kuwaiti oil fires in 1991 have been included as part of Kuwait's emissions for that year.\n- Country's share of the global population is calculated using our population dataset, based on [different sources](https://ourworldindata.org/population-sources).\n- Each country's share of global CO₂ emissions from flaring has been calculated using global CO₂ emissions from flaring provided in the Global Carbon Budget dataset.\n",
+      "shortUnit": "t",
+      "unit": "tonnes",
+      "timespan": "1990-2023",
+      "type": "Numeric",
+      "owidVariableId": 998353,
+      "shortName": "consumption_emissions",
+      "lastUpdated": "2024-11-21",
+      "nextUpdate": "2025-11-21",
+      "citationShort": "Global Carbon Budget (2024) – with major processing by Our World in Data",
+      "citationLong": "Global Carbon Budget (2024) – with major processing by Our World in Data. “Consumption-based CO₂ emissions – GCB” [dataset]. Global Carbon Project, “Global Carbon Budget” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/998353.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-01-30",
+  "activeFilters": {}
+}

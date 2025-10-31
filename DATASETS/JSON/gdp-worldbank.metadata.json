@@ -1,0 +1,48 @@
+{
+  "chart": {
+    "title": "Gross domestic product (GDP)",
+    "subtitle": "This data is adjusted for inflation and differences in living costs between countries.",
+    "note": "This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2021 prices.",
+    "citation": "Data compiled from multiple sources by World Bank (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/gdp-worldbank?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "China",
+      "United States",
+      "Japan",
+      "United Kingdom",
+      "Brazil",
+      "India",
+      "Germany",
+      "Russia",
+      "France",
+      "Mexico"
+    ]
+  },
+  "columns": {
+    "GDP, PPP (constant 2021 international $)": {
+      "titleShort": "Gross domestic product (GDP)",
+      "titleLong": "Gross domestic product (GDP) - World Bank – In constant international-$",
+      "descriptionShort": "Total economic output of a country or region per year. This data is adjusted for inflation and for differences in living costs between countries.",
+      "descriptionKey": [
+        "Gross domestic product (GDP) is a measure of the total value added from the production of goods and services in a country or region each year.",
+        "This GDP indicator provides information on economic growth and income levels from 1990.",
+        "This data is adjusted for inflation and for differences in living costs between countries.",
+        "This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2021 prices.",
+        "For GDP estimates in the long run, explore the [Maddison Project Database's indicator](https://ourworldindata.org/grapher/gdp-maddison-project-database)."
+      ],
+      "shortUnit": "$",
+      "unit": "international-$ in 2021 prices",
+      "timespan": "1990-2023",
+      "type": "Integer",
+      "owidVariableId": 1008362,
+      "shortName": "ny_gdp_mktp_pp_kd",
+      "lastUpdated": "2025-01-24",
+      "nextUpdate": "2026-01-24",
+      "citationShort": "Data compiled from multiple sources by World Bank (2025) – with minor processing by Our World in Data",
+      "citationLong": "Data compiled from multiple sources by World Bank (2025) – with minor processing by Our World in Data. “Gross domestic product (GDP) – World Bank – In constant international-$” [dataset]. Data compiled from multiple sources by World Bank, “World Development Indicators” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1008362.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-02-16",
+  "activeFilters": {}
+}

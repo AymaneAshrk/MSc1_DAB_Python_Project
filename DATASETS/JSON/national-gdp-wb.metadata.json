@@ -1,0 +1,46 @@
+{
+  "chart": {
+    "title": "Gross domestic product (GDP)",
+    "subtitle": "This data is adjusted for inflation and differences in the cost of living between countries.",
+    "note": "This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices.",
+    "citation": "World Bank (2023)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/national-gdp-wb?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "China",
+      "United States",
+      "Japan",
+      "United Kingdom",
+      "Brazil",
+      "India",
+      "Germany",
+      "Russia",
+      "France",
+      "Mexico"
+    ]
+  },
+  "columns": {
+    "GDP, PPP (constant 2017 international $)": {
+      "titleShort": "Gross domestic product (GDP)",
+      "titleLong": "Gross domestic product (GDP) - World Bank",
+      "descriptionShort": "This data is adjusted for inflation and for differences in the cost of living between countries.",
+      "descriptionKey": [
+        "This GDP indicator provides information on economic growth and income levels from 1990.",
+        "This data is adjusted for inflation and for differences in the cost of living between countries.",
+        "This data is expressed in international-$ at 2017 prices."
+      ],
+      "shortUnit": "$",
+      "unit": "international-$ in 2017 prices",
+      "timespan": "1990-2022",
+      "type": "Numeric",
+      "owidVariableId": 905482,
+      "shortName": "ny_gdp_mktp_pp_kd",
+      "lastUpdated": "2024-05-20",
+      "nextUpdate": "2025-05-20",
+      "citationShort": "World Bank (2023) – with minor processing by Our World in Data",
+      "citationLong": "World Bank (2023) – with minor processing by Our World in Data. “Gross domestic product (GDP) – World Bank” [dataset]. World Bank, “World Bank World Development Indicators” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/905482.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-01-30",
+  "activeFilters": {}
+}

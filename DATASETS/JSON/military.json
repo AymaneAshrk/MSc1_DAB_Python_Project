@@ -1,0 +1,40 @@
+{
+  "chart": {
+    "title": "Military spending",
+    "subtitle": "This data is expressed in US dollars and adjusted for inflation.",
+    "note": "This data is expressed in constant 2021 US$.",
+    "citation": "Barnum et al. - Global Military Spending Dataset (2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/military-spending-gmsd?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United States",
+      "Russia",
+      "China",
+      "India",
+      "United Kingdom",
+      "France"
+    ]
+  },
+  "columns": {
+    "Military expenditure (constant US$)": {
+      "titleShort": "Military expenditure",
+      "titleLong": "Military expenditure",
+      "descriptionShort": "This data is expressed in US dollars. It is adjusted for inflation but does not account for differences in the cost of living between countries.",
+      "descriptionKey": [
+        "This data is calculated by using nine different military expenditure data sources and combining them using a model. The model links the country-year data together and estimates a mean with a prediction interval for each observation. For more information about the methodology, see [the original article](https://journals.sagepub.com/doi/10.1177/00220027241232964)."
+      ],
+      "shortUnit": "$",
+      "unit": "constant 2021 US$",
+      "timespan": "1816-2022",
+      "type": "Numeric",
+      "owidVariableId": 1004307,
+      "shortName": "milex_estimate",
+      "lastUpdated": "2024-11-26",
+      "nextUpdate": "2025-11-26",
+      "citationShort": "Barnum et al. - Global Military Spending Dataset (2024) – with minor processing by Our World in Data",
+      "citationLong": "Barnum et al. - Global Military Spending Dataset (2024) – with minor processing by Our World in Data. “Military expenditure” [dataset]. Barnum et al., “Global Military Spending Dataset Version 4” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1004307.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-02-16",
+  "activeFilters": {}
+}

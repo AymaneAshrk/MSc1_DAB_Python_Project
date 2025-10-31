@@ -1,0 +1,31 @@
+{
+  "chart": {
+    "title": "Total market capitalization of listed domestic companies as a share of GDP",
+    "subtitle": "End-of-year total market capitalization of listed domestic companies, divided by gross domestic product, expressed as a percentage.",
+    "note": "Investment funds, unit trusts, and companies whose only business goal is to hold shares of other listed companies are excluded.",
+    "citation": "Multiple sources compiled by World Bank (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/total-market-capitalization-listed-domestic-companies-share-gdp?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United States"
+    ]
+  },
+  "columns": {
+    "Market capitalization of listed domestic companies (% of GDP)": {
+      "titleShort": "Market capitalization of listed domestic companies (% of GDP)",
+      "titleLong": "Market capitalization of listed domestic companies (% of GDP)",
+      "shortUnit": "%",
+      "unit": "% of GDP",
+      "timespan": "1975-2022",
+      "type": "Numeric",
+      "owidVariableId": 1007740,
+      "shortName": "cm_mkt_lcap_gd_zs",
+      "lastUpdated": "2025-01-24",
+      "nextUpdate": "2026-01-24",
+      "citationShort": "Multiple sources compiled by World Bank (2025) – processed by Our World in Data",
+      "citationLong": "Multiple sources compiled by World Bank (2025) – processed by Our World in Data. “Market capitalization of listed domestic companies (% of GDP)” [dataset]. World Federation of Exchanges (via World Bank), “World Development Indicators” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1007740.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-01-30",
+  "activeFilters": {}
+}
