@@ -46,7 +46,7 @@ Ce projet d'analyse de données examine les relations complexes entre facteurs �
 ## 📁 Structure du projet
 
 ```
-Global-Economic-Environmental-Analysis/
+analyse-economique-environnementale-globale/
 ├── VERSION_FINALE.ipynb          # Notebook principal d'analyse
 ├── DATASETS/
 │   ├── CSV/                      # Données sources au format CSV
@@ -62,7 +62,7 @@ Global-Economic-Environmental-Analysis/
 │   ├── 2-Corrélation PIB_CO2.png
 │   ├── 3-Classement 10pays_pollueurs.png
 │   └── 4-Carte Militaire_PIB.png
-└── requirements.txt              # Dépendances Python
+      
 ```
 
 ## 🚀 Installation
@@ -81,12 +81,6 @@ git clone https://github.com/AymaneAshrk/MSc1_DAB_Python_Project.git
 cd MSc1_DAB_Python_Project
 ```
 
-2. **Installer les dépendances**
-```bash
-pip install -r requirements.txt
-```
-
-Le fichier **requirements.txt** contient : pandas, numpy, matplotlib, seaborn, plotly, geopandas, scipy, jupyter
 
 ## 💻 Utilisation
 
