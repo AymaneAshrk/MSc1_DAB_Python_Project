@@ -1,4 +1,4 @@
-# 📊 Global Economic & Environmental Data Analysis
+# 📊 Projet M1 - Analyse Économique et Environnementale Globale
 
 > Comprehensive analysis of GDP, CO2 emissions, military spending, and demographic correlations at global scale  
 > **M1** — MSc Data Analytics for Business (KEDGE BS), 2024–2025
