@@ -1,24 +1,31 @@
-# 📊 MSc1 Data Analytics for Business - Python Project
+# 📊 Global Economic & Environmental Data Analysis
 
+> Comprehensive analysis of GDP, CO2 emissions, military spending, and demographic correlations at global scale  
+> **M1** — MSc Data Analytics for Business (KEDGE BS), 2024–2025
 
-> Analyse multicritère des données économiques, environnementales et militaires mondiales avec visualisations statistiques avancées
->
-> ## 📋 Table des matières
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![M1](https://img.shields.io/badge/Level-M1-blue)](https://kedge.edu/)
+[![KEDGE](https://img.shields.io/badge/Program-MSc%20DAB%20(KEDGE)-green)](https://kedge.edu/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
-- [Aperçu](#aper%C3%A7u)
-- [Fonctionnalités](#fonctionnalit%C3%A9s)
-- [Structure du projet](#structure-du-projet)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Analyses réalisées](#analyses-r%C3%A9alis%C3%A9es)
-- [Données](#donn%C3%A9es)
-- [Technologies](#technologies)
-- [Résultats](#r%C3%A9sultats)
+## 📋 Table des matières
 
+- [Aperçu](#-aperçu)
+- [Fonctionnalités](#-fonctionnalités)
+- [Structure du projet](#-structure-du-projet)
+- [Installation](#-installation)
+- [Utilisation](#-utilisation)
+- [Analyses réalisées](#-analyses-réalisées)
+- [Données](#-données)
+- [Technologies](#️-technologies)
+- [Résultats](#-résultats)
 
 ## 🎯 Aperçu
 
-Ce projet d'analyse de données dans le cadre du MSc1 Data Analytics for Business à KEDGE Business School examine les relations complexes entre facteurs économiques, environnementaux et géopolitiques à l'échelle mondiale. L'analyse porte sur les corrélations entre PIB, émissions de CO2, dépenses militaires, population et données boursières.
+Ce projet d'analyse de données examine les relations complexes entre facteurs économiques, environnementaux et géopolitiques à l'échelle mondiale. L'analyse porte sur les corrélations entre PIB, émissions de CO2, dépenses militaires, population et données boursières, révélant des insights cruciaux pour les décideurs politiques et économiques.
+
+**Contexte académique :** Projet réalisé dans le cadre du M1 Data Analytics for Business à KEDGE Business School (2024–2025).
 
 ### Questions de recherche analysées
 
@@ -26,7 +33,6 @@ Ce projet d'analyse de données dans le cadre du MSc1 Data Analytics for Busines
 - **Géopolitique économique** : Corrélation entre dépenses militaires et PIB national
 - **Dynamiques démographiques** : Influence de la population sur les indicateurs économiques
 - **Performance des marchés** : Analyse des données boursières et leur contexte macroéconomique
-
 
 ## ✨ Fonctionnalités
 
@@ -38,11 +44,10 @@ Ce projet d'analyse de données dans le cadre du MSc1 Data Analytics for Busines
 - 📋 Traitement et nettoyage de données complexes
 - 💾 Exports structurés en formats multiples (CSV, JSON, PNG)
 
-
 ## 📁 Structure du projet
 
 ```
-MSc1_DAB_Python_Project/
+Global-Economic-Environmental-Analysis/
 ├── VERSION_FINALE.ipynb          # Notebook principal d'analyse
 ├── DATASETS/
 │   ├── CSV/                      # Données sources au format CSV
@@ -61,7 +66,6 @@ MSc1_DAB_Python_Project/
 └── requirements.txt              # Dépendances Python
 ```
 
-
 ## 🚀 Installation
 
 ### Prérequis
@@ -69,7 +73,6 @@ MSc1_DAB_Python_Project/
 - Python 3.8 ou supérieur
 - Jupyter Notebook / JupyterLab
 - Minimum 4GB RAM (pour le traitement des datasets volumineux)
-
 
 ### Étapes d'installation
 
@@ -106,7 +109,6 @@ Le notebook est organisé en sections logiques :
 - **Visualisations** : Création des 4 graphiques principaux
 - **Conclusions** : Synthèse des résultats et recommandations
 
-
 ## 📊 Analyses réalisées
 
 ### 1. Matrice de corrélation globale
@@ -117,7 +119,6 @@ Le notebook est organisé en sections logiques :
 - Heatmap avec coefficients de Pearson
 - Identification des relations significatives
 
-
 ### 2. Corrélation PIB-CO2
 
 **Fichier** : `2-Corrélation PIB_CO2.png`
@@ -125,7 +126,6 @@ Le notebook est organisé en sections logiques :
 - Analyse de régression linéaire PIB vs émissions CO2
 - Scatter plot avec ligne de tendance
 - Coefficient de détermination R²
-
 
 ### 3. Top 10 des pays pollueurs
 
@@ -135,7 +135,6 @@ Le notebook est organisé en sections logiques :
 - Barplot horizontal avec données actualisées
 - Analyse comparative internationale
 
-
 ### 4. Carte géopolitique Militaire-PIB
 
 **Fichier** : `4-Carte Militaire_PIB.png`
@@ -143,7 +142,6 @@ Le notebook est organisé en sections logiques :
 - Visualisation géospatiale des dépenses militaires en % du PIB
 - Carte choroplèthe mondiale
 - Analyse des tendances géopolitiques
-
 
 ## 📁 Données
 
@@ -163,7 +161,6 @@ Le notebook est organisé en sections logiques :
 - **Couverture géographique** : Mondiale (195+ pays)
 - **Fréquence** : Annuelle pour la plupart des indicateurs
 
-
 ## 🛠️ Technologies
 
 ### Librairies principales
@@ -175,7 +172,6 @@ Le notebook est organisé en sections logiques :
 - **scipy** : Analyses statistiques avancées
 - **geopandas** : Données géospatiales (cartes)
 
-
 ### Techniques analytiques
 
 - **Analyse de corrélation** : Pearson, Spearman
@@ -184,8 +180,7 @@ Le notebook est organisé en sections logiques :
 - **Visualisation géospatiale** : Cartes choroplèthes
 - **Data cleaning** : Gestion des valeurs manquantes, outliers
 
-
-## 📈 Résultats clés
+## 📈 Résultats
 
 ### Principales découvertes
 
@@ -201,13 +196,13 @@ Le notebook est organisé en sections logiques :
 - **Développement durable** : Nécessité de découpler croissance et émissions
 - **Méthodologie** : Importance de la qualité des données pour analyses multicritères
 
-***
+---
 
-**Auteur** : Aymane Ashrk
-**Formation** : MSc1 Data Analytics for Business - KEDGE Business School
-**Année académique** : 2024-2025
-**Dernière mise à jour** : Octobre 2025
+**Auteur** : Aymane Ashrk  
+**Formation** : M1 Data Analytics for Business - KEDGE Business School  
+**Année académique** : 2024-2025  
+**Portfolio** : [GitHub](https://github.com/AymaneAshrk)
 
-***
+---
 
-*Ce projet fait partie du cursus MSc Data Analytics for Business et démontre l'application pratique des techniques d'analyse de données à des problématiques économiques et environnementales contemporaines.*
+*Ce projet démontre l'application de techniques avancées d'analyse de données à des problématiques économiques et environnementales contemporaines, avec une approche méthodologique rigoureuse et des visualisations professionnelles.*
